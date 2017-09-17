@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/tp2.unity
+- path: Assets/tp6-manip.unity
   isLoaded: 1
   isActive: 1

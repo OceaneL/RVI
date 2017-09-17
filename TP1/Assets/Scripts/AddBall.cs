@@ -10,10 +10,7 @@ public class AddBall : MonoBehaviour {
 
 	// Use this for initialization
 	void Start() {
-		Debug.Log ("aaaa");
 		groundPlane = new Plane (planeloc.transform.forward, planeloc.transform.position);	
-		Debug.Log ("hsfdhzfehé");
-		//Debug.Log(groundPlane);
 	}
 	
 	// Update is called once per frame

@@ -5,6 +5,7 @@ using UnityEngine;
 public class CameraMove : MonoBehaviour {
 
 	public GameObject cible;
+    public int speed = 20;
 
 	// Use this for initialization
 	void Start () {
@@ -14,6 +15,6 @@ public class CameraMove : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.LookAt(cible.transform);
-		transform.RotateAround(cible.transform.position, Vector3.up, 20 * Time.deltaTime);
+		transform.RotateAround(cible.transform.position, Vector3.up, speed * Time.deltaTime);
 	}
 }
