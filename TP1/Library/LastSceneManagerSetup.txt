@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/tp6-manip.unity
+- path: Assets/tp6-navig-vitesse.unity
   isLoaded: 1
   isActive: 1
