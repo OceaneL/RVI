@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 593834999}
   - component: {fileID: 593835004}
   - component: {fileID: 593835005}
+  - component: {fileID: 593835006}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -323,7 +324,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 593834998}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e19c99d2b5297a54e9e07544fe048191, type: 3}
   m_Name: 
@@ -332,6 +333,26 @@ MonoBehaviour:
   verticalRotation: 1
   speedTranslation: 4
   initMousePosition: {x: 0, y: 0, z: 0}
+--- !u!114 &593835006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 593834998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d128a830a25d74144a47fe4ee0b67e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalRotation: 4
+  verticalRotation: 4
+  speedTranslation: 2
+  objectPosition: {x: 0, y: 0, z: 0}
+  initCameraPosition: {x: 0, y: 0, z: 0}
+  initMousePosition: 0
+  initMousePositionX: 0
+  active: 0
+  InitRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &810781971
 GameObject:
   m_ObjectHideFlags: 0
