@@ -49,7 +49,7 @@ public class NavigationCible : MonoBehaviour
                 Vector3 transl = objectPosition - initCameraPosition;
                 this.transform.position = initCameraPosition + (transl * depPour);
                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                var h =  - ray.direction.x;
+                var h = (objectPosition - this.transform.position).normalized.x - ray.direction.x;
                 this.transform.Rotate(Vector3.up * h * Time.deltaTime * 5000, Space.Self);
             }
         }

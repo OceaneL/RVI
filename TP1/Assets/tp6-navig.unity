@@ -350,9 +350,7 @@ MonoBehaviour:
   objectPosition: {x: 0, y: 0, z: 0}
   initCameraPosition: {x: 0, y: 0, z: 0}
   initMousePosition: 0
-  initMousePositionX: 0
   active: 0
-  InitRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &810781971
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,7 +558,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 990878653}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.1840744, y: 8.376736, z: 4.370411}
+  m_LocalPosition: {x: 0, y: 8.376736, z: 4.370411}
   m_LocalScale: {x: 10.025697, y: 10.025697, z: 10.025697}
   m_Children: []
   m_Father: {fileID: 1723665350}
@@ -587,7 +585,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 8b7e345aa535ab245bb3d1fcafac9369, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.1840744
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 8b7e345aa535ab245bb3d1fcafac9369, type: 3}
       propertyPath: m_LocalPosition.y
@@ -759,7 +757,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1883163372}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.1840744, y: -3.1232643, z: 4.370411}
+  m_LocalPosition: {x: 0, y: -3.1232643, z: 4.370411}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 1723665350}
