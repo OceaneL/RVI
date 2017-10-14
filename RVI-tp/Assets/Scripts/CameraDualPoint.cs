@@ -14,7 +14,6 @@ public class CameraDualPoint : MonoBehaviour {
 
     Camera cam;
     public GameObject cible;
-    public int speed = 20;
     public Vector3 position;
     public Quaternion rotation;
 

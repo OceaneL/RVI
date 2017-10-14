@@ -287,7 +287,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cible: {fileID: 1807326122}
-  speed: 20
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!81 &2113876355
@@ -353,7 +352,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2113876353}
-  m_LocalRotation: {x: 0, y: -0.8416072, z: 0, w: 0.5400901}
+  m_LocalRotation: {x: 0, y: -0.790049, z: 0, w: 0.6130438}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []

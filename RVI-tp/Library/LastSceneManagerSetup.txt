@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/tp3.unity
+- path: Assets/tp6-navig.unity
   isLoaded: 1
   isActive: 1
